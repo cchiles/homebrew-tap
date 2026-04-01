@@ -8,7 +8,7 @@ class PlaudSync < Formula
   depends_on "uv"
 
   url "https://github.com/cchiles/plaud-sync/releases/download/v0.1.0/plaud-sync-darwin-arm64.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "72de25ee7e884a1e3fd4c92212c40853ac7f364c28aa09e0c9af286fbb387631"
 
   def install
     bin.install "plaud-sync"
