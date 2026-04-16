@@ -1,14 +1,14 @@
 class PlaudSync < Formula
   desc "Sync and transcribe Plaud recordings with speaker diarization"
   homepage "https://github.com/cchiles/plaud-sync"
-  version "0.3.3"
+  version "0.3.4"
   license "MIT"
 
   depends_on arch: :arm64
   depends_on "uv"
 
-  url "https://github.com/cchiles/plaud-sync/releases/download/v0.3.3/plaud-sync-darwin-arm64.tar.gz"
-  sha256 "f2ed75d02628b6d5a988b20cceef81d4a91c5ee153b890444d601446c33bfe3b"
+  url "https://github.com/cchiles/plaud-sync/releases/download/v0.3.4/plaud-sync-darwin-arm64.tar.gz"
+  sha256 "1c0c4102419f0ee7bbebd125413fd2895d0d38e201b0adddc65bc428284051e8"
 
   def install
     bin.install "plaud-sync"
