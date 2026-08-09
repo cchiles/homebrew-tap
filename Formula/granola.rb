@@ -1,16 +1,16 @@
 class Granola < Formula
   desc "CLI for Granola meeting notes"
   homepage "https://github.com/cchiles/granola-cli"
-  version "0.1.4"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cchiles/granola-cli/releases/download/v#{version}/granola-darwin-arm64"
-      sha256 "0491e21f3e9559338a3f7c00a1c19367e9809570ffecfa36edbadc527fef91f8"
+      sha256 "d57920fd0f376b50f9c7384e7c08c4d1672fea0eb14cb6cb495b7ea35b5346de"
     else
       url "https://github.com/cchiles/granola-cli/releases/download/v#{version}/granola-darwin-x64"
-      sha256 "80c85a45cd76668681ed97d6b2a1f0af98f66a8d76fd40d6b6f4c3c7cd796e7c"
+      sha256 "16d67a3ea6cd230607905c0eeee39605739b4d1e5dc9b60d6cfee53ae2f38196"
     end
   end
 
